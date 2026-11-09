@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="absolute -right-6 -top-6 h-full w-full rounded-full border border-line" aria-hidden />
           <div className="relative h-full w-full overflow-hidden border border-line bg-panel">
             {hasPhoto ? (
-              <img src="/profile.jpg" alt="Portrait of Yash Supare" className="h-full w-full object-cover grayscale" onError={() => setHasPhoto(false)} />
+              <img src="/profile.png" alt="Portrait of Yash Supare" className="h-full w-full object-cover grayscale" onError={() => setHasPhoto(false)} />
             ) : (
               <div className="grid h-full place-items-center bg-gradient-to-b from-[#232730] to-panel">
                 <span className="font-display text-[9rem] font-black leading-none text-line">YS</span>
