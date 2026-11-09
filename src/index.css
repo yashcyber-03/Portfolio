@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-ink text-silver font-body antialiased; }
+section[id] { scroll-margin-top: 5rem; }
+:focus-visible { outline: 2px solid #c9b48a; outline-offset: 3px; }
+
+.silver-text {
+  background: linear-gradient(180deg, #f4f5f8 10%, #9aa0ad 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.btn { @apply inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold transition-colors; }
+.btn-solid { @apply bg-silver text-ink hover:bg-white; }
+.btn-line { @apply border border-line text-silver hover:border-silver; }
+
+/* One orchestrated entrance: the hero headline sweeps in on load. */
+@keyframes sweep { from { clip-path: inset(0 100% 0 0); opacity: .2 } to { clip-path: inset(0 0 0 0); opacity: 1 } }
+.sweep { animation: sweep .9s cubic-bezier(.2,.7,.2,1) both; }
+.sweep-2 { animation-delay: .18s; }
+
+@keyframes pop { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+.pop { animation: pop .25s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .sweep, .pop { animation: none; }
+}
