@@ -5,9 +5,7 @@ export const site = {
   name: "Yash Supare",
   email: import.meta.env.VITE_CONTACT_EMAIL || "",
   // TODO: replace with your real profile URLs
-  github: "https://github.com/YOUR_USERNAME",
-  linkedin: "https://www.linkedin.com/in/YOUR_USERNAME",
-  instagram: "https://www.instagram.com/YOUR_USERNAME",
+  github: "https://github.com/yashcyber-03",
 };
 
 export const skillGroups = [
