@@ -39,7 +39,7 @@ export default function Hero() {
       </div>
 
       <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-px border-y border-line bg-line text-sm md:grid-cols-4">
-        {[["Based in", "Nagpur, India"], ["Studying", "Computer Science Engineering"], ["Featured projects", "5"], ["Built with", "React, Vite, Tailwind"]].map(([k, v]) => (
+        {[["Based in", "Nagpur, India"], ["Studying", "Computer Science Engineering"], ["Featured projects", "6"], ["Built with", "React, Vite, Tailwind"]].map(([k, v]) => (
           <div key={k} className="bg-ink px-6 py-5"><dt className="text-mute">{k}</dt><dd className="mt-1 text-base font-semibold">{v}</dd></div>
         ))}
       </dl>
