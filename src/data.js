@@ -23,6 +23,7 @@ export const projects = [
   { title: "Medical Plus Pharmacy Management", image: "/projects/medical-plus.png", kind: "Management system", desc: "A pharmacy management project for handling day-to-day pharmacy records.", stack: ["Add stack here"], demo: "https://medical-plus-pharmacy.vercel.app/", repo: "https://github.com/yashcyber-03/Medical-Plus-Pharmacy" },
   { title: "Hospital Management System", image: "/projects/hospital.png", kind: "Management system", desc: "A hospital management project for organising hospital records.", stack: ["Add stack here"], demo: "https://hospital-management-system-pearl-rho.vercel.app/", repo: "https://github.com/yashcyber-03/Hospital-Management" },
   { title: "Cafe Website", image: "/projects/cafe.png", kind: "Website", desc: "A responsive website for a cafe, covering menu and contact details.", stack: ["HTML", "CSS", "JavaScript"], demo: "https://littleowlcafe-psi.vercel.app/", repo: "https://github.com/yashcyber-03/Little-Owl-Cafe" },
+  { title: "DailySpend", image: "/projects/dailyspend.png", kind: "Website", desc: "A personal expense tracking website that helps users manage daily spending, monitor expenses, and track their financial habits through a simple, intuitive dashboard.", stack: ["React", "Tailwind CSS"], demo: "https://dailyspend-ten.vercel.app/", repo: "https://github.com/yashcyber-03/DailySpend" },
 ];
 
 export const services = [
